@@ -1,8 +1,14 @@
 # Postgres
+
 alias start-pg='pg_ctl -l $PGDATA/server.log start'
 alias stop-pg='pg_ctl stop -m fast'
 alias show-pg-status='pg_ctl status'
 alias restart-pg='pg_ctl reload'
 
 # Rails
+
 alias migrate="rake db:migrate db:rollback && rake db:migrate db:test:prepare && rake db:migrate RAILS_ENV=test"
+
+# Vim with +clipboard
+
+alias vim='/Applications/MacVim/MacVim.app/Contents/MacOS/Vim'
