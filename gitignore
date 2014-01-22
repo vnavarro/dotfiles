@@ -1,11 +1,15 @@
-*.DS_Store
+# vim
+*~
 *.sw[nop]
-.bundle
-.env
-db/*.sqlite3
-log/*.log
-rerun.txt
+
+*.DS_Store
+
+# Ctags
+
 tags
-tmp/**/*
-!tmp/cache/.keep
-zeus.json
+
+# Bundler
+.bundle
+
+# Vagrant
+.vagrant
