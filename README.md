@@ -142,3 +142,16 @@ The names and logos for thoughtbot are trademarks of thoughtbot, inc.
 
 Dotfiles is © 2009-2013 thoughtbot, inc. It is free software and may be
 redistributed under the terms specified in the [LICENSE](LICENSE) file.
+
+To Do:
+------
+ * [Improve copy between tmux and OSX](http://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future)
+
+Troubleshooting
+==========
+
+TMUX
+-----
+
+If tmux does not seems to source, force it with
+<code>tmux source ~/.tmux.conf.</code>
