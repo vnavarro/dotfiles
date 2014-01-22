@@ -3,7 +3,7 @@
 cutstring="DO NOT EDIT BELOW THIS LINE"
 
 if [ ! -e "$HOME/.oh-my-zsh" ]; then
-git clone https://github.com/stupied4ever/oh-my-zsh "$HOME/.oh-my-zsh"
+git clone https://github.com/vnavarro/oh-my-zsh "$HOME/.oh-my-zsh"
 fi
 
 for name in *; do
